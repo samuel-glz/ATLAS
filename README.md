@@ -1,2 +1,2 @@
 # ATLAS
-A custom local file processing pipline application.
+This repository is publicly visible for review, discussion, issue tracking, and limited collaboration only.
