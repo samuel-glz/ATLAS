@@ -1,5 +1,5 @@
 # ATLAS
-**IMPORTANT**: This repository is publicly visible for review, discussion, issue tracking, and limited collaboration only.
+**IMPORTANT**: This repository is publicly visible for review, discussion, and issue tracking only.
 
 ATLAS is a local-first file storage and synchronization platform designed to provide self-hosted file management similar to cloud storage systems like Google Drive. The project focuses on scalable backend architecture, intelligent file organization, search capabilities, and cloud-ready infrastructure. ATLAS is being built as both a practical storage platform and a long-term engineering project for learning distributed systems, DevOps workflows, and modern backend development practices. The system is designed to remain extensible so custom features, automation pipelines, and AI-assisted tooling can be added over time.
 
