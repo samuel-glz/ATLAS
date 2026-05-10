@@ -1,28 +1,23 @@
 # ATLAS
-ATLAS is a local-first file storage and synchronization platform designed to provide self-hosted file management similar to cloud storage systems like Google Drive. The project focuses on scalable backend architecture, intelligent file organization, search capabilities, and cloud-ready infrastructure. ATLAS is being built as both a practical storage platform and a long-term engineering project for learning distributed systems, DevOps workflows, and modern backend development practices. The system is designed to remain extensible so custom features, automation pipelines, and AI-assisted tooling can be added over time.
+ATLAS is a local-first file storage and organization platform designed to make personal file management easier, searchable, and accessible across devices.
+The goal of ATLAS is to provide a self-hosted alternative to traditional cloud storage systems while giving users more control over how files are organized, indexed, and retrieved.
 
-### Project Overview
-ATLAS is a modular file storage and processing platform intended to function as a self-hosted and cloud-capable file management system.
-It is centered around creating a local-first platform capable of:
+Unlike a traditional file explorer, ATLAS is designed around metadata-driven organization. Files can be tagged, categorized, and grouped into virtual views without requiring physical folder restructuring. This allows files to remain stored normally while being dynamically organized in multiple ways.
 
-- storing and organizing files
-- synchronizing files between environments
-- indexing metadata for fast retrieval
-- supporting intelligent search functionality
-- providing a scalable backend architecture for future expansion
+ATLAS is being built to function as a lightweight personal cloud platform that can run locally on a home server or personal machine, allowing users to access and manage files across devices without relying entirely on third-party cloud providers.
 
-Unlike a traditional file browser, ATLAS is intended to operate as an extensible infrastructure platform that manages file storage, synchronization, indexing, and processing through modular services and APIs.
+**Planned features include:**
+- local-first file storage
+- self-hosted personal cloud access
+- metadata and tagging systems
+- virtual folder views
+- indexed file search
+- synchronization between devices
+- drag-and-drop uploads
+- scalable backend services
+- optional cloud connectivity
+- future AI-assisted organization and search tools
 
-The system is planned to support:
-- local storage servers
-- optional cloud storage integration
-- virtual folder structures
-- drag-and-drop file uploads
-- indexed file searching
-- metadata tracking
-- synchronization pipelines
-- future AI-assisted search and automation features
-
-The platform is designed to separate storage concerns, synchronization logic, indexing systems, and user interaction layers into isolated components so the system can scale and evolve over time.
+This project focuses on creating a practical and extensible file platform that prioritizes user control, organization, and long-term flexibility.
 
 **NOTICE:** This repository is publicly visible for review, discussion, and issue tracking only. Feel free to submit issues and they will be addressed as I'm able to get to them. I'm currently not accepting collaborators.
