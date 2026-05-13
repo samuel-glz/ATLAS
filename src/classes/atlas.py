@@ -7,6 +7,15 @@ class Atlas:
         self.group = group
         self.favorite = favorite
 
+    def view_tags(self):
+        return self.tags
+
+    def add_tag(self, tag):
+        self.tags.append(tag)
+
+    def remove_tag(self, tag):
+        self.tags.remove(tag)
+
 
 class AtlasFolder(Atlas):
     def __init__(self, path, tags=None, group='none', favorite=0):
