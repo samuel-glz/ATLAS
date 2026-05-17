@@ -2,7 +2,7 @@
 
 from pathlib import Path
 from classes.atlas import AtlasFile, AtlasFolder
-from database.db_access import add_to_db
+from database.db_access import add_to_db, get_entries_values
 
 
 class AtlasManager:
@@ -37,3 +37,8 @@ class AtlasManager:
             self.current_view = self.current_view / new_dir
         elif direction == 'b':
             self.current_view = self.current_view.parent
+
+    def view_current_dir(self):
+        for entry in get_entries_values():
+            if entry.path.parent == self.current_view:
+                print(entry)

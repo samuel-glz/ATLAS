@@ -8,9 +8,7 @@ AM.create_atlas_entries()
 print(f"Curernt Folder: '{AM.current_view.name}'")
 print('Files:')
 
-for entry in atlas_entries.values():
-    print(entry)
-
+AM.view_current_dir()
 
 # # ***** This is the file system version. The goal is to do this with AtLas Entries dict. *****
 # for item in AM.current_view.iterdir():
