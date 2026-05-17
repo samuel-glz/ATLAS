@@ -12,7 +12,7 @@ for entry in atlas_entries.values():
     print(entry)
 
 
-# ***** This is the file system version. The goal is to do this with AtLas Entries dict. *****
+# # ***** This is the file system version. The goal is to do this with AtLas Entries dict. *****
 # for item in AM.current_view.iterdir():
 #     if item.name != 'desktop.ini':
 #         print(item.name)

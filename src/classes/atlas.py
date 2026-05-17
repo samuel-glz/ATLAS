@@ -1,6 +1,3 @@
-from pathlib import Path
-
-
 class Atlas:
     def __init__(self, path, type, tags=None, favorite=0):
         self.type = type
